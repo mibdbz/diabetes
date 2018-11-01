@@ -1,6 +1,10 @@
 
-package diabetes;
+package search;
 
+/**
+ * Klasa odzwierciedlająca produkt ktory znajduje sie w bazie danych
+ * @author mibdbz
+ */
 public class ProductModel implements Comparable{
     private int id;
     private String productType;
@@ -9,11 +13,11 @@ public class ProductModel implements Comparable{
     private double carbohydrates;
     private double fat;
     private int measureInGrams;
-    private int kcal;
+    private double kcal;
     
     //Constructors
 
-    public ProductModel(int id, String productType, String productName, double protein, double carbohydrates, double fat, int measureInGrams, int kcal) {
+    public ProductModel(int id, String productType, String productName, double protein, double carbohydrates, double fat, int measureInGrams, double kcal) {
         this.id = id;
         this.productType = productType;
         this.productName = productName;
@@ -84,11 +88,11 @@ public class ProductModel implements Comparable{
         this.measureInGrams = measureInGrams;
     }
 
-    public int getKcal() {
+    public double getKcal() {
         return kcal;
     }
 
-    public void setKcal(int kcal) {
+    public void setKcal(double kcal) {
         this.kcal = kcal;
     }
     
@@ -96,7 +100,7 @@ public class ProductModel implements Comparable{
     
     @Override
     public String toString(){
-        return id + " | " + productType + " | " + productName + " | " + protein + " | " + carbohydrates + " | " + fat + " | " + measureInGrams + " | " + kcal;
+        return productName + "  |  " + protein + "  |  " + carbohydrates + "   |   " + fat +  "   |   " + kcal+"\n";
     }
     
 

@@ -1,9 +1,7 @@
 
 package diabetes;
 
-import search.Controller;
-import services.AddProduct;
-import services.DeleteProduct;
+
 
 
 public class Diabetes {
