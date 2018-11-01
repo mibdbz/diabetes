@@ -62,6 +62,4 @@ public class Queries {
         String query = "DELETE FROM products WHERE productname ='"+name+"'";
         return query;
     }
-    
-    
 }

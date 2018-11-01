@@ -179,8 +179,4 @@ public class SqlImplementation implements SqlDao{
         resultSet.close();
         //System.out.println("Zamknieto wszystkie procesy");
     }
-    
-
-    
-    
 }

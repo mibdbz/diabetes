@@ -3,18 +3,13 @@ package diabetes;
 
 
 import java.util.Scanner;
-import search.Controller;
 import search.ProductModel;
 
 public class UserInput {
-    
-    // dodaj produkt
-    //usun produkt
+    // to do
 //    aktualizacja produktu;
 //    zapodaj wszyskite produkty;
 //    produkty po typie produktu;
-
-
 //   jakie sa typy produktow
     
     
